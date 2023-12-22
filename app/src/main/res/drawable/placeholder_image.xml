@@ -1,0 +1,6 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@android:color/darker_gray" />
+    </item>
+    <item android:drawable="@android:drawable/ic_menu_gallery" />
+</layer-list>

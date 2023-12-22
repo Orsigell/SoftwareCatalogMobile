@@ -1,0 +1,5 @@
+<resources>
+    <style name="CustomFont" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/black</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when tab is selected -->
+    <item android:state_selected="true" android:drawable="@color/colorAccent" />
+
+    <!-- State when tab is not selected (default state) -->
+    <item android:drawable="@android:color/transparent" />
+</selector>

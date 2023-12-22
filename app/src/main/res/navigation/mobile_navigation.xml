@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/softwares">
+
+    <fragment
+        android:id="@+id/categories"
+        android:name="ru.pin120.via.accountingsoftwaremobile.ui.categories.CategoriesFragment"
+        android:label="@string/categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/screens"
+        android:name="ru.pin120.via.accountingsoftwaremobile.ui.screens.ScreensFragment"
+        android:label="@string/screens"
+        tools:layout="@layout/fragment_screens" />
+
+    <fragment
+        android:id="@+id/softwares"
+        android:name="ru.pin120.via.accountingsoftwaremobile.ui.software.SoftwareFragment"
+        android:label="@string/softwares"
+        tools:layout="@layout/fragment_software" />
+
+    <fragment
+        android:id="@+id/comments"
+        android:name="ru.pin120.via.accountingsoftwaremobile.ui.comments.CommentsFragment"
+        android:label="@string/comments"
+        tools:layout="@layout/fragment_comments" />
+
+</navigation>
